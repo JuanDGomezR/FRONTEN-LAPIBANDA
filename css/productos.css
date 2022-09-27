@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=wasp');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* 
+==========MENU============ 
+*/
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+   
+}
+
+#menu a{
+    color:#3f3f3f;
+    
+}
+
+
+
+main>.container {
+    padding: 50px 0;
+    position: relative;
+}
+
+.card {
+    padding: 50px 0 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    width: auto;
+
+}
+
+/*
+==========FOOTER===============
+*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+/* 
+==========MEDIA QUERIES PANTALLA EXTRA PQ============ 
+*/
+
+@media (max-width: 576px) {
+ 
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
+
